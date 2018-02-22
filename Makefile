@@ -23,6 +23,7 @@ clean: ## Removes «cv.html» and «cv.pdf» if found on disk
 deploy: html ## Calls «clean» and «html» targets, then moves the generated html CV page to the «docs» folder.
 	mkdir docs
 	mv cv.html ./docs/index.html
+	mv cv.pdf ./docs/cv.pdf
 
 help: ## Displays this help menu
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
