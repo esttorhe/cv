@@ -20,7 +20,7 @@ watch: clean dependencies ## Same as the «html» target but listens to changes 
 clean: ## Removes «cv.html» and «cv.pdf» if found on disk
 	rm -rf cv.html cv.pdf docs
 
-deploy: html ## Calls «clean» and «html» targets, then moves the generated html CV page to the «docs» folder.
+deploy: html all ## Calls «clean» and «html» targets, then moves the generated html CV page to the «docs» folder.
 	mkdir docs
 	mv cv.html ./docs/index.html
 	mv cv.pdf ./docs/cv.pdf
