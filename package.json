@@ -1,0 +1,13 @@
+{
+  "name": "cv",
+  "version": "0.1.0",
+  "description": "CV in markdown",
+  "license": "MIT",
+  "repository": "https://github.com/esttorhe/cv",
+  "author": "Esteban Torres <me@estebantorr.es>",
+  "private": false,
+  "dependencies": {
+    "markdown-resume": "^0.1.0",
+    "light-server": "^2.4.0"
+  }
+}
