@@ -1,5 +1,5 @@
+os: osx
 language: node_js
-
 cache:
   directories:
   - node_modules
