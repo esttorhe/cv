@@ -1,0 +1,13 @@
+language: node_js
+
+cache:
+  directories:
+  - node_modules
+
+script:
+- make deploy
+
+after_success:
+- git add docs/*
+- git commit -m "Releasing new version of CV"
+- git push origin master
