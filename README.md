@@ -27,7 +27,7 @@ It also contains it's own `help` target which outputs the following:
 | all             |               Removes «`cv.html`» and «`cv.pdf`» if found on disk, installs the dependencies and generates a pdf version of the CV. |
 | clean            |              Removes «`cv.html`» and «`cv.pdf`» if found on disk |
 | dependencies             |      Installs the npm packages, if `wkhtmltopdf` is not found it also installs it using homebrew. |
-| deploy              |           Calls «clean» and «html» targets, then moves the generated html CV page to the «docs» folder. |
+| deploy              |           Calls «clean» and «html» targets, then generates the pdf file, & creates the docs folder |
 | help             |              Displays this help menu |
 | html          |                 Removes «`cv.html`» and «`cv.pdf`» if found on disk, install the dependencies and generates an html version of the CV. |
 | watch                |          Same as the «`html`» target but listens to changes on «`cv.md`» and hot reloads the changes to http://localhost:4000/cv.html. |
