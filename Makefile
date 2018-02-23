@@ -20,7 +20,8 @@ watch: clean dependencies ## Same as the «html» target but listens to changes 
 clean: ## Removes «cv.html» and «cv.pdf» if found on disk
 	rm -rf cv.html cv.pdf docs
 
-deploy: html all ## Calls «clean» and «html» targets, then creates the docs folder
+deploy: html ## Calls «clean» and «html» targets, then generates the pdf file, & creates the docs folder
+	node node_modules/.bin/md2resume --pdf cv.md
 	mkdir docs
 
 help: ## Displays this help menu
