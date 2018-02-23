@@ -18,7 +18,7 @@ git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
 cd ..
 
 # Check if there are any changes that need deploying
-if [ cmp --silent $OLD $NEW ]; then
+if cmp --silent $OLD $NEW ; then
   # Clean up existing docs
   rm -rf out/**/* || exit 0
   mv ./cv.pdf ./out/docs/cv-esteban.pdf
