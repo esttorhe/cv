@@ -1,5 +1,9 @@
 os: osx
 language: node_js
+env:
+  global:
+    - ENCRYPTION_LABEL: "4ca5d6902761"
+    - COMMIT_AUTHOR_EMAIL: "me+cv_travis_bot@estebantorr.es"
 cache:
   directories:
   - node_modules
@@ -8,6 +12,4 @@ script:
 - make deploy
 
 after_success:
-- git add docs/*
-- git commit -m "Releasing new version of CV"
-- git push origin master
+- bash ./upload.sh
