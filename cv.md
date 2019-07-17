@@ -10,23 +10,27 @@
 
 ### Technical Skills
 
-1. `iOS`
-1. `Objective-C`
-1. `Swift`
-1. `Scripting`
-1. `Git` / `SVN` / `CVS`
-1. Xcode / AppCode / Android Studio
-1. `Ruby`
+1. `Swift` & `Objective-C`
+2. `Go`
+3. `Scripting`
+4. `Docker`
+5. `Xcode` / `AppCode` / `Android Studio`
 
 ------
 
 ### Work Experience
 
-**`SoundCloud`** *iOS Developer* **2016 to present**
-	Architected and defined the infrastructure for modules/framework extractions into micro features.
+**`SoundCloud`** *Core Clients Engineer* **2017 to present**
 	Reduced compile times by 7 minutes by the creation of a service side `Swift` service with a companion `Ruby` service that tracked build times locally and on `CI`, which helped us track major bottlenecks that guided us towards improving our project organization; resulting in more developers embracing `TDD` due to lesser turnaround times which lead to an increase in the confidence of shipping new features.
 	Reduced the number of flaky tests on the `iOS` code base by implementing a `Swift` server side service that scrapes and parses `CI` data from `Buddybuild`, to generate metrics and dashboards that helped us track and fix flaky tests and confirm improvements via metrics; which lead to minimizing friction when adding new features and reducing the integration time by 50% as a result of reducing the need to re-run the `CI` jobs to verify flakyness.
 	Improved initial playback time and playqueue load times by 15 seconds by extracting and refactoring `Offline Sync` into it's own framework and removing unnecessary complexity; leading to an increase in total listening time of our users by 10%.
+	Wrote multiple tools that hookup to `Prometheus` in order to properly analyze and maintain app health as well as to better understand how all the systems interact with each other.
+
+###  
+
+**`SoundCloud`** *iOS Developer* **2016 to 2017**
+	Architected and defined the infrastructure for modules/framework extractions into micro features.
+	Integrated the new in-house media player into the `iOS` application; leading to less crashes, faster remote media loading and caching as well less fragmentation of the code via guiding all the media playback through the same engine (audio & video).
 
 ###  
 
