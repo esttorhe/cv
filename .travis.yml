@@ -8,13 +8,13 @@ cache:
   directories:
   - node_modules
 
-before_script: 
-- 'echo -e "Host *\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config'
-- nvm install 11.1
-- npm install
-
-script:
-- make deploy
-
-after_success:
-- bash ./upload.sh
+    #before_script: 
+    #- 'echo -e "Host *\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config'
+    #- nvm install 11.1
+    #- npm install
+    #
+    #script:
+    #- make deploy
+    #
+    #after_success:
+    #- bash ./upload.sh
