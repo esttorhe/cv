@@ -1,27 +1,26 @@
-.PHONY: all clean dependencies html watch help
-
 WKHTMLPODF := $(shell command -v wkhtmltopdf 2> /dev/null)
+IMAGE := there4/markdown-resume
+INTERACTIVE ?= -it
+DOCKER := docker run $(INTERACTIVE) -v ${PWD}:/resume $(IMAGE) 
 
-all: clean dependencies ## Removes «cv.html» and «cv.pdf» if found on disk, installs the dependencies and generates a pdf version of the CV.
-	node node_modules/.bin/md2resume --pdf cv.md
+.PHONY: clean html help stats interactive deploy
 
-dependencies: ## Installs the npm packages, if `wkhtmltopdf` is not found it also installs it using homebrew.
-	npm install
-ifndef WKHTMLPODF
-	brew cask install wkhtmltopdf
-endif
+default: html
 
-html: clean dependencies ## Removes «cv.html» and «cv.pdf» if found on disk, install the dependencies and generates an html version of the CV.
-	node node_modules/.bin/md2resume cv.md
+html: clean ## Removes «cv.html» and «cv.pdf» if found on disk and generates an html version of the CV.
+	$(DOCKER) md2resume html cv.md .
 
-watch: clean dependencies ## Same as the «html» target but listens to changes on «cv.md» and hot reloads the changes to http://localhost:4000/cv.html.
-	node node_modules/.bin/light-server -s . -w "cv.md # node_modules/.bin/md2resume cv.md"
+stats: ## Generate a word frequency analysis of your resume.
+	$(DOCKER) md2resume stats cv.md
+
+interactive: ## Allows you to enter an interactive console where you can easily experiment and run different commands
+	INTERACTIVE="-it" $(DOCKER)
 
 clean: ## Removes «cv.html» and «cv.pdf» if found on disk
 	rm -rf cv.html cv.pdf docs
 
 deploy: html ## Calls «clean» and «html» targets, then generates the pdf file, & creates the docs folder
-	node node_modules/.bin/md2resume --pdf cv.md
+	$(DOCKER) md2resume pdf cv.md .
 	mkdir docs
 
 help: ## Displays this help menu
