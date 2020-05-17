@@ -1,53 +1,54 @@
 # Esteban Torres
-## Senior Developer & Speaker
+## Engineering Manager
 
-> [estebantorr.es](https://estebantorr.es)
-> [github.com/esttorhe](https://github.com/esttorhe)
-> [me@estebantorr.es](mailto:me@estebantorr.es)
-> +49 162 4190543
+> 🌐[estebantorr.es](https://estebantorr.es)<br>🧰[github.com/esttorhe](https://github.com/esttorhe)<br>📩[me@estebantorr.es](mailto:me+cv@estebantorr.es)<br>📱+49 162 4190543
 
 ------
 
 ### Technical Skills
 
+6. `Agile` Methodologies
+5. Cross Platform Team
 1. `Swift` & `Objective-C`
 2. `Go`
 3. `Scripting`
 4. `Docker`
-5. `Xcode` / `AppCode` / `Android Studio`
 
 ------
 
 ### Work Experience
 
-**`SoundCloud`** *Core Clients Engineer* **2017 to present**
-	Reduced compile times by 7 minutes by the creation of a service side `Swift` service with a companion `Ruby` service that tracked build times locally and on `CI`, which helped us track major bottlenecks that guided us towards improving our project organization; resulting in more developers embracing `TDD` due to lesser turnaround times which lead to an increase in the confidence of shipping new features.
-	Reduced the number of flaky tests on the `iOS` code base by implementing a `Swift` server side service that scrapes and parses `CI` data from `Buddybuild`, to generate metrics and dashboards that helped us track and fix flaky tests and confirm improvements via metrics; which lead to minimizing friction when adding new features and reducing the integration time by 50% as a result of reducing the need to re-run the `CI` jobs to verify flakyness.
-	Improved initial playback time and playqueue load times by 15 seconds by extracting and refactoring `Offline Sync` into it's own framework and removing unnecessary complexity; leading to an increase in total listening time of our users by 10%.
-	Wrote multiple tools that hookup to `Prometheus` in order to properly analyze and maintain app health as well as to better understand how all the systems interact with each other.
+**`SoundCloud`** *Core Clients Engineering Manager* **2019 to present**<br>
+	Manage a cross platform team involving `BackEnd` technologies (`Scala`, `Go`) as well as `Android` & `iOS`. Grew the team to double the number of `BackEnd` engineers & started the inclusion of `Web FrontEnd` development to the team.<br>
+	Lead many company wide efforts to improve the `Engineering Experience` across the entire technology organization, e.g.: Centralisation of engineering documentation finding & creation, established a program to share multiplatform work knowledge to other teams, unification of multiple tracking systems to cross-reference on a single place, lead the technical aspect of a redesign project that involved all user facing clients of our app (`web`, `Android` & `iOS`).<br>	
+	Focused on leading the career development path of the team, due to the structure of the team more times than none I need to fill the roles of `Product Manager` as well as `Product Owner`.
 
 ###  
 
-**`SoundCloud`** *iOS Developer* **2016 to 2017**
+**`SoundCloud`** *Core Clients Engineer* **2016 to 2019**<br>
+	Reduced compile times by 7 minutes by the creation of a service side `Swift` service with a companion `Ruby` service that tracked build times locally and on `CI`, which helped us track major bottlenecks that guided us towards improving our project organization; resulting in more developers embracing `TDD` due to lesser turnaround times which lead to an increase in the confidence of shipping new features.
+	Reduced the number of flaky tests on the `iOS` code base by implementing a `Swift` server side service that scrapes and parses `CI` data from `Buddybuild`, to generate metrics and dashboards that helped us track and fix flaky tests and confirm improvements via metrics; which lead to minimizing friction when adding new features and reducing the integration time by 50% as a result of reducing the need to re-run the `CI` jobs to verify flakyness.
+	Improved initial playback time and playqueue load times by 15 seconds by extracting and refactoring `Offline Sync` into it's own framework and removing unnecessary complexity; leading to an increase in total listening time of our users by 10%.
+	Wrote multiple tools that hookup to `Prometheus` in order to properly analyze and maintain app health as well as to better understand how all the systems interact with each other.<br>
 	Architected and defined the infrastructure for modules/framework extractions into micro features.
 	Integrated the new in-house media player into the `iOS` application; leading to less crashes, faster remote media loading and caching as well less fragmentation of the code via guiding all the media playback through the same engine (audio & video).
 
 ###  
 
-**`Brewbot`** *Lead iOS Developer* **2015 to 2016**
+**`Brewbot`** *Lead iOS Developer* **2015 to 2016**<br>
 	Improved app responsiveness and testability by 20% by introducing reactive programming and `ViewModel` + `DataControllers` resulting in faster iteration times and an increase in the amount of bugs and new features the team could tackle.
 	Streamlined the `CI` and «delivery» processes by integrating `fastlane` into the workflow of the organization; guaranteeing increase in confidence with each change by running the tests before every integration and deploying `OTA` updates; resulting in a more stable application and facilitating the addition of changes.
 
 ###  
 
-**`Log(n)`** *Mobile Lead Engineer* **2012 to 2015**
+**`Log(n)`** *Mobile Lead Engineer* **2012 to 2015**<br>
 	Defined a structure for the `iOS` department by being the mobile lead engineer of a small team of 4 mobile engineers which lead to the company to be able to take more projects and reduce the turnaround time.
 	Established a development process for `iOS` projects by documenting and defining a workflow that resulted in a considerable decrease in maintainability times and ability to iterate on new features on the projects.
 	Established a CI system for development and delivery by setting up some Mac Minis and Buildasaur with Xcode Bots which resulted in an increment of 15% in test coverage and a reduction of 50% times when deliverying new `ipa`s.
 
 ###  
 
-**`Samtec`** *iOS Technical Lead (Technical Lead)* **2010 to 2012**
+**`Samtec`** *iOS Technical Lead (Technical Lead)* **2010 to 2012**<br>
 	Increased iteration times on new features for the iOS apps 4 times by creating, training and directing the `iOS` department.
 	Built an `iOS` team of 6 developers by creating a career path program that resulted in the creation of more simultaneous projects, leading to an increase in productivity for the company.
 
