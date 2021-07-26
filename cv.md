@@ -19,6 +19,7 @@
 ### Work Experience
 
 **`SoundCloud`** *Core Clients Engineering Manager* **2019 to present**<br>
+	Lead the technical front to design, implement and release the very first `Design System` @ SoundCloud. Leading a cross functional team compromised of 14 engineers, coordinating with 2 designers and distributed accross different countries and timezones. Managed to reduce the time it takes to iterate and test UI/UX changes by 30%.<br>
 	Manage a cross platform team involving `BackEnd` technologies (`Scala`, `Go`) as well as `Android` & `iOS`. Grew the team to double the number of `BackEnd` engineers & started the inclusion of `Web FrontEnd` development to the team.<br>
 	Lead many company wide efforts to improve the `Engineering Experience` across the entire technology organization, e.g.: Centralisation of engineering documentation finding & creation, established a program to share multiplatform work knowledge to other teams, unification of multiple tracking systems to cross-reference on a single place, lead the technical aspect of a redesign project that involved all user facing clients of our app (`web`, `Android` & `iOS`).<br>	
 	Focused on leading the career development path of the team, due to the structure of the team more times than none I need to fill the roles of `Product Manager` as well as `Product Owner`.
@@ -56,13 +57,12 @@
 
 ### Projects
 
+* **`SoundCloud` Design System**
+  To improve hypothesis testing and faster iteration in `UI`/`UX` efforts; a [`Design System`][design-system] was design, build and put in place to enable `Product Managers` and `Designers` to more easily test changes. Not just that, defining a standard language taxonomy, everyone involved in changes could communicate clearly and without misunderstandings; by sharing the same concepts `Designers`, `Production Managers`, `Engineers` & `Engineering Managers` could communicate intent and needs and be understood exactly. Plus facilitating fixing issues and improving functionality since changes were centralised. 
+
 * **`RxViewModel`**
   [`ReactiveViewModel`][reactiveviewmodel] `Swift` implementation for [`RxSwift`][rxswift]. Created to satisfy a lack of a reactive implementation of `ViewModel` for [`RxSwift`][rxswift], to better understand the innards of `RxSwift` and help ease the usage of `MVVM` with an  [`RxSwift`][rxswift] integration.
-  It was later transfered to [RxSwiftCommunity][rxswiftcommunity] to live under the umbrella of the `RxSwiftCommunity`..
-
-* **`SoundCloud` offline sync**
-  One of the biggest features of `SoundCloud`'s mobile application  is the ability to offline sync tracks.
-  Due to bad performance of the feature in the `iOS` application, I was part of a team in charge of rewriting this implementation in its own abstracted dynamic framework. With the usage of shared repositories and proper mechanisms the offline functionality was abstracted in a way that other `SoundCloud` apps can easily and quickly implement their own offline sync feature.
+  It was later transfered to [RxSwiftCommunity][rxswiftcommunity] to live under the umbrella of the `RxSwiftCommunity`.
 
 * **`Multiple OSS Projects`**
   Some of the `OSS` contributions I've worked on are:
@@ -88,3 +88,4 @@
 [cocoapods]:http://blog.cocoapods.org/CocoaPods.org-Two-point-Five/
 [moya]:https://github.com/Moya/Moya/pull/194
 [fbsnapshot]:https://github.com/facebookarchive/ios-snapshot-test-case/pull/121
+[design-system]:https://uxdesign.cc/everything-you-need-to-know-about-design-systems-54b109851969
