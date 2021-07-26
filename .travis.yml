@@ -1,5 +1,7 @@
 os: osx
 language: node_js
+services:
+  - docker
 env:
   global:
     - ENCRYPTION_LABEL: "4ca5d6902761"
