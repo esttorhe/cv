@@ -1,22 +1,20 @@
 # Esteban Torres
 ## Engineering Manager
 
-> 🌐[estebantorr.es](https://estebantorr.es)<br>🧰[github.com/esttorhe](https://github.com/esttorhe)<br>📩[me@estebantorr.es](mailto:me+cv@estebantorr.es)<br>📱+49 162 4190543
-
-------
-
-### Technical Skills
-
-6. `Agile` Methodologies
-5. Cross Platform Team
-1. `Swift` & `Objective-C`
-2. `Go`
-3. `Scripting`
-4. `Docker`
+🌐[estebantorr.es](https://estebantorr.es)
+🧰[github.com/esttorhe](https://github.com/esttorhe)
+📩[me@estebantorr.es](mailto:me+cv@estebantorr.es)
+📱+49 162 4190543
 
 ------
 
 ### Work Experience
+
+**`SoundCloud`** *BackEnd Engineering Productivity Engineering Manager* **08.2021 to present**<br>
+	Focused on scaling up the BackEnd engineering experience, improve productivity and automate best practices, started working on identifying, cataloging and standardising what constitues as Tech Debt in order to properly measure it to be properly tackled.<br>
+	Working in tandem to define a global set of syntactic metrics to measure systems and teams and be able to compare and properly priorize depending on what the company and the current goals are.
+
+### 
 
 **`SoundCloud`** *Core Clients Engineering Manager* **2019 to present**<br>
 	Lead the technical front to design, implement and release the very first `Design System` @ SoundCloud. Leading a cross functional team compromised of 14 engineers, coordinating with 2 designers and distributed accross different countries and timezones. Managed to reduce the time it takes to iterate and test UI/UX changes by 30%.<br>
@@ -46,12 +44,6 @@
 	Defined a structure for the `iOS` department by being the mobile lead engineer of a small team of 4 mobile engineers which lead to the company to be able to take more projects and reduce the turnaround time.
 	Established a development process for `iOS` projects by documenting and defining a workflow that resulted in a considerable decrease in maintainability times and ability to iterate on new features on the projects.
 	Established a CI system for development and delivery by setting up some Mac Minis and Buildasaur with Xcode Bots which resulted in an increment of 15% in test coverage and a reduction of 50% times when deliverying new `ipa`s.
-
-###  
-
-**`Samtec`** *iOS Technical Lead (Technical Lead)* **2010 to 2012**<br>
-	Increased iteration times on new features for the iOS apps 4 times by creating, training and directing the `iOS` department.
-	Built an `iOS` team of 6 developers by creating a career path program that resulted in the creation of more simultaneous projects, leading to an increase in productivity for the company.
 
 ------
 
