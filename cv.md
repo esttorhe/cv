@@ -10,13 +10,22 @@
 
 ### Work Experience
 
-**`SoundCloud`** *BackEnd Engineering Productivity Engineering Manager* **08.2021 to present**<br>
+**`Spotify`** *Backstage Commercial Plugins Engineering Manager* **01.2022 to present**<br>
+	Lead the team in charge of creating a new revenue stream for Spotify through Backstage via monetizing Spotify's expertise. Created a foundational system to externalize and commercialize plugins that could be sold b2b or partnering with distributors.<br>
+	With the help of other teams around managed to grow the availability of commercial plugins from 0 to 3 in one year.<br>
+	Co-designed and guided the organizational direction for the Backstage Product Area, growing the team to 10 engineers in 1 year in order to properly staff 2 squads.<br>
+	Coached and mentored an engineer to help them transition from IC to EM and handed them one of the new sub-squads.<br>
+	Collaborating with the PM started establishing a proper technical direction for the Backstage OSS plugins location and future as well as setting the foundations for a publicly available plugins marketplace via defining a backing structure and strenghtening the creator tooling (CLI, web, etc).
+
+### 
+
+**`SoundCloud`** *BackEnd Engineering Productivity Engineering Manager* **08.2021 to 2021**<br>
 	Focused on scaling up the BackEnd engineering experience, improve productivity and automate best practices, started working on identifying, cataloging and standardising what constitues as Tech Debt in order to properly measure it to be properly tackled.<br>
 	Working in tandem to define a global set of syntactic metrics to measure systems and teams and be able to compare and properly priorize depending on what the company and the current goals are.
 
 ### 
 
-**`SoundCloud`** *Core Clients Engineering Manager* **2019 to present**<br>
+**`SoundCloud`** *Core Clients Engineering Manager* **2019 to 2021**<br>
 	Lead the technical front to design, implement and release the very first `Design System` @ SoundCloud. Leading a cross functional team compromised of 14 engineers, coordinating with 2 designers and distributed accross different countries and timezones. Managed to reduce the time it takes to iterate and test UI/UX changes by 30%.<br>
 	Manage a cross platform team involving `BackEnd` technologies (`Scala`, `Go`) as well as `Android` & `iOS`. Grew the team to double the number of `BackEnd` engineers & started the inclusion of `Web FrontEnd` development to the team.<br>
 	Lead many company wide efforts to improve the `Engineering Experience` across the entire technology organization, e.g.: Centralisation of engineering documentation finding & creation, established a program to share multiplatform work knowledge to other teams, unification of multiple tracking systems to cross-reference on a single place, lead the technical aspect of a redesign project that involved all user facing clients of our app (`web`, `Android` & `iOS`).<br>	
