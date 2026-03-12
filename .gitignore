@@ -2,6 +2,7 @@
 # Custom ignored files
 cv.pdf
 cv.html
+.claude-visual/
 
 # Created by https://www.gitignore.io/api/nwjs,node,macos
 
