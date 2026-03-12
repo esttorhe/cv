@@ -1,0 +1,42 @@
+name: Deploy CV
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'cv.md'
+      - 'Makefile'
+      - 'package.json'
+      - '.github/workflows/deploy.yml'
+
+jobs:
+  deploy:
+    runs-on: macos-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install system dependencies
+        run: brew install pango
+
+      - name: Install mise
+        uses: jdx/mise-action@v2
+
+      - name: Install npm packages
+        run: npm install
+
+      - name: Build CV
+        env:
+          DYLD_FALLBACK_LIBRARY_PATH: /opt/homebrew/lib
+        run: make deploy
+
+      - name: Commit and push docs
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "me+cv_gh_bot@estebantorr.es"
+          git add docs/
+          git diff --cached --quiet && echo "No changes to deploy" && exit 0
+          git commit -m "Deploy to «docs»: $(git rev-parse --short HEAD)"
+          git push
