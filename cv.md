@@ -1,69 +1,139 @@
 # Esteban Torres
-## Engineering Manager
 
-🌐[estebantorr.es](https://estebantorr.es)
-🧰[github.com/esttorhe](https://github.com/esttorhe)
-📩[me@estebantorr.es](mailto:me+cv@estebantorr.es)
-📱+49 162 4190543
+## Head of Engineering – Platform
+
+> [estebantorr.es](https://estebantorr.es)
+> [github.com/esttorhe](https://github.com/esttorhe)
+> [me@estebantorr.es](mailto:me@estebantorr.es)
+> [linkedin.com/in/estebantorres](https://www.linkedin.com/in/estebantorres)
+
+------
+
+### Technical Skills
+
+1. `Leadership`
+1. `Kubernetes`
+1. `Backstage`
+1. `Swift` & `Objective-C`
+1. `Go`
 
 ------
 
 ### Work Experience
 
-**`Spotify`** *Backstage Commercial Plugins Engineering Manager* **01.2022 to present**<br>
-	Lead the team in charge of creating a new revenue stream for Spotify through Backstage via monetizing Spotify's expertise. Created a foundational system to externalize and commercialize plugins that could be sold b2b or partnering with distributors.<br>
-	With the help of other teams around managed to grow the availability of commercial plugins from 0 to 3 in one year.<br>
-	Co-designed and guided the organizational direction for the Backstage Product Area, growing the team to 10 engineers in 1 year in order to properly staff 2 squads.<br>
-	Coached and mentored an engineer to help them transition from IC to EM and handed them one of the new sub-squads.<br>
-	Collaborating with the PM started establishing a proper technical direction for the Backstage OSS plugins location and future as well as setting the foundations for a publicly available plugins marketplace via defining a backing structure and strenghtening the creator tooling (CLI, web, etc).
+**`Zenjob`** *Head of Platform Engineering* **October 2025 to present**
+ Leading the Platform organization at Zenjob. In charge of cost consiousness and cost reduction.
+ Integrated service monitoring via `DataDog` agents.
+ Standardised alert generation, monitoring and team alert distribution via infrastructure as code.
+ Replaced old alerting system for on-call teams in favour of a modern and Slack first integration, allowing the creation of automations and faster incident response.
 
-### 
+<h3></h3>
 
-**`SoundCloud`** *BackEnd Engineering Productivity Engineering Manager* **08.2021 to 2021**<br>
-	Focused on scaling up the BackEnd engineering experience, improve productivity and automate best practices, started working on identifying, cataloging and standardising what constitues as Tech Debt in order to properly measure it to be properly tackled.<br>
-	Working in tandem to define a global set of syntactic metrics to measure systems and teams and be able to compare and properly priorize depending on what the company and the current goals are.
+**`Zenjob`** *Head of Engineering (Supply Vertical)* **January 2025 to October 2025**
+ Heading the engineering direction for the Supply vertical at Zenjob.
+Closely collaborating with the other 2 Heads of Engineering, reporting directly under the CTO to provide direction and support for Zenjob's long term goals.
+ Lead the mobile infrastructure team and a company wide distribution efforts to migrate the mobile apps from native code (iOS & Android) to `ReactNative` using `Expo`.
 
-### 
+<h3></h3>
 
-**`SoundCloud`** *Core Clients Engineering Manager* **2019 to 2021**<br>
-	Lead the technical front to design, implement and release the very first `Design System` @ SoundCloud. Leading a cross functional team compromised of 14 engineers, coordinating with 2 designers and distributed accross different countries and timezones. Managed to reduce the time it takes to iterate and test UI/UX changes by 30%.<br>
-	Manage a cross platform team involving `BackEnd` technologies (`Scala`, `Go`) as well as `Android` & `iOS`. Grew the team to double the number of `BackEnd` engineers & started the inclusion of `Web FrontEnd` development to the team.<br>
-	Lead many company wide efforts to improve the `Engineering Experience` across the entire technology organization, e.g.: Centralisation of engineering documentation finding & creation, established a program to share multiplatform work knowledge to other teams, unification of multiple tracking systems to cross-reference on a single place, lead the technical aspect of a redesign project that involved all user facing clients of our app (`web`, `Android` & `iOS`).<br>	
-	Focused on leading the career development path of the team, due to the structure of the team more times than none I need to fill the roles of `Product Manager` as well as `Product Owner`.
+**`Zenjob`** *Engineering Manager* **May 2023 to January 2025**
+ Leading the Platform & Infrastructure team.
+ Introduced KPIs for tracking performance of the team and align with objectives.
+ Introduced services to unlock measuring lead time across the entire engineering organization.
+ Lead the introduction of an API Gateway as well as an APM service.
+ Improvement of CI/CD pipelines over 50% in duration and stability.
 
-###  
+<h3></h3>
 
-**`SoundCloud`** *Core Clients Engineer* **2016 to 2019**<br>
-	Reduced compile times by 7 minutes by the creation of a service side `Swift` service with a companion `Ruby` service that tracked build times locally and on `CI`, which helped us track major bottlenecks that guided us towards improving our project organization; resulting in more developers embracing `TDD` due to lesser turnaround times which lead to an increase in the confidence of shipping new features.
-	Reduced the number of flaky tests on the `iOS` code base by implementing a `Swift` server side service that scrapes and parses `CI` data from `Buddybuild`, to generate metrics and dashboards that helped us track and fix flaky tests and confirm improvements via metrics; which lead to minimizing friction when adding new features and reducing the integration time by 50% as a result of reducing the need to re-run the `CI` jobs to verify flakyness.
-	Improved initial playback time and playqueue load times by 15 seconds by extracting and refactoring `Offline Sync` into it's own framework and removing unnecessary complexity; leading to an increase in total listening time of our users by 10%.
-	Wrote multiple tools that hookup to `Prometheus` in order to properly analyze and maintain app health as well as to better understand how all the systems interact with each other.<br>
-	Architected and defined the infrastructure for modules/framework extractions into micro features.
-	Integrated the new in-house media player into the `iOS` application; leading to less crashes, faster remote media loading and caching as well less fragmentation of the code via guiding all the media playback through the same engine (audio & video).
+**`Spotify`** *Engineering Manager* **January 2022 to May 2023**
+ Lead a highly distributed team over Sweden, London, Berlin, Colorado and New York into releasing the first set of 3 `Backstage` plugins to be monetised by `Spotify`.
+ Setup the foundational structures for the plugins marketplace on which `Spotify` later on would sell their plugins, generating a new income revenue for the company.
 
-###  
+<h3></h3>
 
-**`Brewbot`** *Lead iOS Developer* **2015 to 2016**<br>
-	Improved app responsiveness and testability by 20% by introducing reactive programming and `ViewModel` + `DataControllers` resulting in faster iteration times and an increase in the amount of bugs and new features the team could tackle.
-	Streamlined the `CI` and «delivery» processes by integrating `fastlane` into the workflow of the organization; guaranteeing increase in confidence with each change by running the tests before every integration and deploying `OTA` updates; resulting in a more stable application and facilitating the addition of changes.
+**`SoundCloud`** *BEEP Engineering Manager* **October 2019 to January 2022**
+ Lead the Back-End Engineering Productivity team alongside the Core Clients team supporting the maintenance of the JVMKit library that supports the entire set of microservices at SoundCloud.
+ The library handles authentication, identity, audience distribution, etc allowing the feature engineers to focus on the features and letting the library handle the rest.
 
-###  
+<h3></h3>
 
-**`Log(n)`** *Mobile Lead Engineer* **2012 to 2015**<br>
-	Defined a structure for the `iOS` department by being the mobile lead engineer of a small team of 4 mobile engineers which lead to the company to be able to take more projects and reduce the turnaround time.
-	Established a development process for `iOS` projects by documenting and defining a workflow that resulted in a considerable decrease in maintainability times and ability to iterate on new features on the projects.
-	Established a CI system for development and delivery by setting up some Mac Minis and Buildasaur with Xcode Bots which resulted in an increment of 15% in test coverage and a reduction of 50% times when deliverying new `ipa`s.
+**`SoundCloud`** *Core Clients Engineer* **July 2017 to February 2020**
+ Reduced compile times by 7 minutes by the creation of a service side `Swift` service with a companion `Ruby` service that tracked build times locally and on `CI`, which helped us track major bottlenecks that guided us towards improving our project organization; resulting in more developers embracing `TDD` due to lesser turnaround times which lead to an increase in the confidence of shipping new features.
+ Reduced the number of flaky tests on the `iOS` code base by implementing a `Swift` server side service that scrapes and parses `CI` data from `Buddybuild`, to generate metrics and dashboards that helped us track and fix flaky tests and confirm improvements via metrics; which lead to minimizing friction when adding new features and reducing the integration time by 50% as a result of reducing the need to re-run the `CI` jobs to verify flakyness.
+ Improved initial playback time and playqueue load times by 15 seconds by extracting and refactoring `Offline Sync` into it's own framework and removing unnecessary complexity; leading to an increase in total listening time of our users by 10%.
+ Wrote multiple tools that hookup to `Prometheus` in order to properly analyze and maintain app health as well as to better understand how all the systems interact with each other.
+
+<h3></h3>
+
+**`SoundCloud`** *iOS Developer* **October 2016 to July 2017**
+ Architected and defined the infrastructure for modules/framework extractions into micro features.
+ Integrated the new in-house media player into the `iOS` application; leading to less crashes, faster remote media loading and caching as well less fragmentation of the code via guiding all the media playback through the same engine (audio & video).
+
+<h3></h3>
+
+**`Craft Kollective`** *Co Founder* **January 2015 to July 2021**
+ Get the best seasonal picks in beer from local brewers delivered to your office each week.
+
+<h3></h3>
+
+**`Brewbot`** *iOS Developer* **September 2015 to August 2016**
+ Improved app responsiveness and testability by 20% by introducing reactive programming and `ViewModel` + `DataControllers` resulting in faster iteration times and an increase in the amount of bugs and new features the team could tackle.
+ Streamlined the `CI` and «delivery» processes by integrating `fastlane` into the workflow of the organization; guaranteeing increase in confidence with each change by running the tests before every integration and deploying `OTA` updates; resulting in a more stable application and facilitating the addition of changes.
+
+<h3></h3>
+
+**`Log(n)`** *Senior iOS Developer | Mobile Lead Engineer* **October 2012 to September 2015**
+ Defined a structure for the `iOS` department by being the mobile lead engineer of a small team of 4 mobile engineers which lead to the company to be able to take more projects and reduce the turnaround time.
+ Established a development process for `iOS` projects by documenting and defining a workflow that resulted in a considerable decrease in maintainability times and ability to iterate on new features on the projects.
+ Established a CI system for development and delivery by setting up some Mac Minis and Buildasaur with Xcode Bots which resulted in an increment of 15% in test coverage and a reduction of 50% times when deliverying new `ipa`s.
+
+<h3></h3>
+
+**`Kidaptive, Inc.`** *iOS Developer* **January 2013 to December 2013**
+ Develop some small LUA games and help with integration of IAP and DLC for the app.
+
+<h3></h3>
+
+**`Mobiquity`** *iOS Senior Developer (Tech Lead)* **August 2012 to January 2013**
+ iOS lead developer in a project called 3RB. A distribution and editable document manager for Hollywood teams in charge of movies, tv series and music shows that need to have their documents and scripts up to date and synchronised across all the users.
+
+<h3></h3>
+
+**`Samtec`** *iOS Technical Lead* **January 2010 to August 2012**
+ Increased iteration times on new features for the iOS apps 4 times by creating, training and directing the `iOS` department.
+ Built an `iOS` team of 6 developers by creating a career path program that resulted in the creation of more simultaneous projects, leading to an increase in productivity for the company.
+
+<h3></h3>
+
+**`Little Maven Bird`** *iOS Analyst and Developer* **April 2011 to November 2011**
+ A company I started with a friend from Austin, TX. Development of own projects (not Outsourcing) iOS specific.
+
+<h3></h3>
+
+**`SlimSoft Solutions Inc.`** *Software Analyst and Developer* **May 2008 to December 2009**
+ Backend developer of a Shop Floor software that worked on FLASH and synchronizes with GEFanuc software via webservices and some COM technology.
+
+<h3></h3>
+
+**`Global Processing Services`** *Software Analyst and Developer* **September 2006 to May 2008**
+ Developed a code generator software as well as working with Reflection technologies in order to build flexible "plug-in" like infrastructure.
+
+<h3></h3>
+
+**`EtereaSoft S.A.`** *Software Analyst and Developer* **January 2005 to June 2005**
+ Small software development company, created to provided exact solutions for small, medium and big companies. Offers solutions in Java and .Net.
 
 ------
 
 ### Projects
 
-* **`SoundCloud` Design System**
-  To improve hypothesis testing and faster iteration in `UI`/`UX` efforts; a [`Design System`][design-system] was design, build and put in place to enable `Product Managers` and `Designers` to more easily test changes. Not just that, defining a standard language taxonomy, everyone involved in changes could communicate clearly and without misunderstandings; by sharing the same concepts `Designers`, `Production Managers`, `Engineers` & `Engineering Managers` could communicate intent and needs and be understood exactly. Plus facilitating fixing issues and improving functionality since changes were centralised. 
-
 * **`RxViewModel`**
   [`ReactiveViewModel`][reactiveviewmodel] `Swift` implementation for [`RxSwift`][rxswift]. Created to satisfy a lack of a reactive implementation of `ViewModel` for [`RxSwift`][rxswift], to better understand the innards of `RxSwift` and help ease the usage of `MVVM` with an  [`RxSwift`][rxswift] integration.
-  It was later transfered to [RxSwiftCommunity][rxswiftcommunity] to live under the umbrella of the `RxSwiftCommunity`.
+  It was later transfered to [RxSwiftCommunity][rxswiftcommunity] to live under the umbrella of the `RxSwiftCommunity`..
+
+* **`SoundCloud` offline sync**
+  One of the biggest features of `SoundCloud`'s mobile application  is the ability to offline sync tracks.
+  Due to bad performance of the feature in the `iOS` application, I was part of a team in charge of rewriting this implementation in its own abstracted dynamic framework. With the usage of shared repositories and proper mechanisms the offline functionality was abstracted in a way that other `SoundCloud` apps can easily and quickly implement their own offline sync feature.
 
 * **`Multiple OSS Projects`**
   Some of the `OSS` contributions I've worked on are:
@@ -76,11 +146,11 @@
 
 ### Education
 
-**Licenciatura en Sistemas (~Licentiate Degree in Computer Science)** __2003 to 2007__
-	Universidad Latina de Costa Rica
+**Licenciatura en Sistemas (~Licentiate Degree in Computer Science)** **2003 to 2007**
+ Universidad Latina de Costa Rica
 
-**iOS Development Bootcamp** __2012__
-	Big Nerd Ranch, Atlanta
+**iOS Development Bootcamp** **2012**
+ Big Nerd Ranch, Atlanta
 
 [reactiveviewmodel]:https://github.com/reactivecocoa/reactiveviewmodel
 [rxswift]:https://github.com/ReactiveX/RxSwift
@@ -89,4 +159,3 @@
 [cocoapods]:http://blog.cocoapods.org/CocoaPods.org-Two-point-Five/
 [moya]:https://github.com/Moya/Moya/pull/194
 [fbsnapshot]:https://github.com/facebookarchive/ios-snapshot-test-case/pull/121
-[design-system]:https://uxdesign.cc/everything-you-need-to-know-about-design-systems-54b109851969
