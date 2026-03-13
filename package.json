@@ -8,6 +8,6 @@
   "private": false,
   "dependencies": {
     "markdown-resume": "^0.1.0",
-    "light-server": "^2.4.0"
+    "light-server": "^2.9.1"
   }
 }
