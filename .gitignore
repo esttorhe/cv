@@ -2,6 +2,8 @@
 # Custom ignored files
 cv.pdf
 cv.html
+cv-*.html
+cv-*.pdf
 cvs/
 .claude-visual/
 
