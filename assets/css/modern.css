@@ -1,0 +1,308 @@
+/* ABOUTME: Modern CV stylesheet with clean sans-serif typography, */
+/* ABOUTME: teal accent color scheme, and ATS-friendly single-column layout. */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Lato:wght@300;400;700&display=swap');
+
+/* ── Reset & Base ──────────────────────────────────────────────── */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.55;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Container ─────────────────────────────────────────────────── */
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 2px;
+}
+
+.resume {
+    padding: 48px 56px;
+}
+
+/* ── Typography ────────────────────────────────────────────────── */
+
+h1, h2, h3, h4 {
+    font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    color: #1a5276;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: #5b7fa5;
+    margin-top: 4px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: 700;
+    font-style: normal;
+    color: #1a5276;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #1a5276;
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+
+/* ── Links ─────────────────────────────────────────────────────── */
+
+a {
+    color: #1a5276;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s;
+}
+
+a:hover {
+    border-bottom-color: #1a5276;
+}
+
+a[href$='.pdf'] {
+    display: none;
+}
+
+/* ── Contact Block (blockquote) ────────────────────────────────── */
+
+blockquote {
+    margin: 8px 0 0;
+    padding: 0;
+    line-height: 1.6;
+    font-size: 13px;
+    color: #555;
+}
+
+blockquote a {
+    color: #555;
+    border-bottom: 1px dotted #aaa;
+}
+
+blockquote a:hover {
+    color: #1a5276;
+    border-bottom-color: #1a5276;
+}
+
+/* ── Professional Summary (first paragraph after first hr) ───── */
+
+blockquote + hr + p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #444;
+    margin: 0 0 8px;
+    padding: 16px 20px;
+    background: #f8fafb;
+    border-left: 3px solid #1a5276;
+    border-radius: 0 4px 4px 0;
+}
+
+/* ── Horizontal Rules ──────────────────────────────────────────── */
+
+hr {
+    display: block;
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    margin: 24px 0;
+    padding: 0;
+    page-break-after: avoid;
+}
+
+hr:nth-of-type(1) {
+    margin-top: 16px;
+}
+
+/* ── Skills Section ────────────────────────────────────────────── */
+
+/* Ordered list for skills */
+ol {
+    margin: 0 0 8px;
+    padding: 0;
+    list-style: none;
+    display: block;
+    width: 100%;
+}
+
+ol li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    line-height: 1.8;
+    float: none;
+    width: auto;
+}
+
+ol li code {
+    background: #eaf2f8;
+    color: #1a5276;
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+/* ── Work Experience Entries ───────────────────────────────────── */
+
+h3 + p {
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Company/role/date line */
+h3 + p strong {
+    color: #222;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+h3 + p em {
+    color: #1a5276;
+    font-style: italic;
+    font-size: 14px;
+}
+
+/* Job description paragraphs (following the first p after h3) */
+p {
+    margin: 0 0 16px;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Style the skill category headers (bold text in paragraphs) */
+p strong:first-child:not(:last-child) {
+    display: inline;
+}
+
+/* ── Projects / OSS Section ────────────────────────────────────── */
+
+ul {
+    margin: 0 0 16px;
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    margin: 0 0 12px;
+    padding: 0 0 0 0;
+    line-height: 1.6;
+}
+
+ul li p {
+    margin: 4px 0 12px;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #555;
+}
+
+ul li strong {
+    font-size: 14px;
+    color: #222;
+}
+
+/* ── Definition Lists (fallback) ──────────────────────────────── */
+
+dl {
+    margin: 0;
+    padding: 0;
+}
+
+dl dt {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #222;
+    margin-top: 12px;
+}
+
+dl dd {
+    margin: 4px 0 12px;
+    padding: 0;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* ── Footer ────────────────────────────────────────────────────── */
+
+#footer {
+    display: none;
+}
+
+#footer + p {
+    font-size: 11px;
+    text-align: center;
+    color: #999;
+}
+
+/* ── Print / PDF Styles ────────────────────────────────────────── */
+
+@media print {
+    body {
+        background: #fff;
+        font-size: 12px;
+    }
+
+    .container {
+        max-width: 100%;
+        margin: 0;
+        box-shadow: none;
+        border-radius: 0;
+    }
+
+    .resume {
+        padding: 24px 36px;
+    }
+
+    a {
+        color: #1a5276;
+        border-bottom: none;
+    }
+
+    blockquote + hr + p {
+        background: none;
+        border-left: 2px solid #1a5276;
+        padding: 8px 16px;
+    }
+
+    h1 { font-size: 26px; }
+    h2 { font-size: 14px; }
+    h3 { font-size: 13px; }
+}
+
+@page {
+    size: A4;
+    margin: 16mm 12mm;
+}
