@@ -17,7 +17,9 @@ if (args.length === 0) {
 
 const cssIdx = args.indexOf('--css');
 const cssFile = cssIdx !== -1 ? args[cssIdx + 1] : path.join(__dirname, 'assets', 'css', 'modern.css');
-const filteredArgs = args.filter((_, i) => i !== cssIdx && i !== cssIdx + 1);
+const filteredArgs = cssIdx !== -1
+    ? args.filter((_, i) => i !== cssIdx && i !== cssIdx + 1)
+    : args;
 
 const sourceFile = path.resolve(filteredArgs[0]);
 const outputFile = filteredArgs[1]
