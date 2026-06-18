@@ -13,10 +13,10 @@ description = "Remove generated files (cv.html, cv.pdf, docs)"
 run = "rm -rf cv.html cv.pdf docs"
 
 [tasks.html]
-description = "Build cv.html from cv.md"
+description = "Build cv.html from cv.md (modern stylesheet)"
 depends = ["install"]
-run = "node node_modules/.bin/md2resume cv.md"
-sources = ["cv.md"]
+run = "node build.js cv.md"
+sources = ["cv.md", "build.js", "assets/css/modern.css"]
 outputs = ["cv.html"]
 
 [tasks.pdf]
@@ -29,7 +29,7 @@ outputs = ["cv.pdf"]
 [tasks.watch]
 description = "Hot reload cv.html at http://localhost:4000/cv.html on cv.md change"
 depends = ["html"]
-run = 'node node_modules/.bin/light-server -s . -w "cv.md # node_modules/.bin/md2resume cv.md"'
+run = 'node node_modules/.bin/light-server -s . -w "cv.md,build.js,assets/css/modern.css # node build.js cv.md"'
 
 [tasks.deploy]
 description = "Build HTML + PDF and copy into docs/"
