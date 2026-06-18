@@ -1,6 +1,6 @@
 # Esteban Torres
 
-## Head of Engineering – Platform
+## Engineering Manager / Head of Engineering
 
 > [estebantorr.es](https://estebantorr.es)
 > [github.com/esttorhe](https://github.com/esttorhe)
@@ -9,138 +9,83 @@
 
 ------
 
+Engineering leader with 15+ years in tech and 7+ years managing engineering teams at Spotify, SoundCloud, and Zenjob. Track record across the full leadership ladder: individual high-performing teams, multi-EM organizations (3 EMs / 30+ engineers at Zenjob Supply), and platform-wide impact (current Head of Platform Engineering at Zenjob). Hands-on full-stack foundation in modern web (Node.js, React, TypeScript) and backend (Go, gRPC, NATS), with cloud-native infrastructure (Kubernetes, AWS, Terraform) and production AI experience (multi-provider LLM, embeddings, agent loops). Berlin-based.
+
+------
+
 ### Technical Skills
 
-1. `Leadership`
-1. `Kubernetes`
-1. `Backstage`
-1. `Swift` & `Objective-C`
-1. `Go`
+**Leadership**
+ Engineering Management, Multi-Team & Multi-EM Organizations, Hiring & Career Development, Performance Calibration, Cross-Functional Partnership (Product, Design, Architecture), Distributed Teams Across Time Zones, Strategic Planning, Stakeholder Management
+
+**Modern Stack**
+ Node.js, React, Next.js, TypeScript, Tailwind CSS, shadcn/ui, Go, Ruby, Swift, gRPC (with Protobuf/Buf), Pub/Sub (NATS JetStream), PostgreSQL, Microservices, Distributed Systems
+
+**Cloud & Platform**
+ Kubernetes, AWS, Terraform, Docker, Infrastructure-as-Code, CI/CD Pipelines, Release Management, API Gateways, Observability (DataDog, Prometheus, Grafana), DORA Metrics, Incident Response & On-Call
+
+**AI-Native Development**
+ GitHub Copilot, Cursor, Claude Code (organization-wide rollout at Zenjob across 60 engineers), Multi-Provider LLM Integration (Anthropic, OpenAI, Google Vertex AI), Embeddings & Semantic Search, Agent Loops with Tool Calling, Prompt Engineering
 
 ------
 
 ### Work Experience
 
-**`Zenjob`** *Head of Platform Engineering* **October 2025 to present**
- Leading the Platform organization at Zenjob. In charge of cost consiousness and cost reduction.
- Integrated service monitoring via `DataDog` agents.
- Standardised alert generation, monitoring and team alert distribution via infrastructure as code.
- Replaced old alerting system for on-call teams in favour of a modern and Slack first integration, allowing the creation of automations and faster incident response.
+**Zenjob** -- *Head of Platform Engineering* -- **October 2025 to present**
+ Leading the Platform organization (5 direct including 1 EM, 8 indirect) supporting 60+ product engineers across the company. Owning infrastructure, observability, and developer tooling.
+ Treating the platform as an internal product: roadmap shaped by product-team friction, success measured in developer experience.
+ Standardized monitoring, alerting, and incident response across the org via Infrastructure-as-Code.
+ Drove company-wide rollout of AI-assisted development (Copilot, Cursor, Claude Code) across 60 engineers, including governance with Security and Legal.
+ Partnering with peer Heads of Engineering and the CTO on dependencies and strategy.
 
-<h3></h3>
+**Zenjob** -- *Head of Engineering (Supply Vertical)* -- **January 2025 to October 2025**
+ Led engineering for the Supply vertical (9 direct including 3 Engineering Managers, 30+ indirect), reporting directly to the CTO.
+ Bridged Product, Design, and cross-functional teams on a company-wide mobile platform migration (native iOS/Android to React Native) with evolving scope and tight timelines.
+ Hired and developed engineering leadership; conducted regular performance reviews and structured 1:1s.
 
-**`Zenjob`** *Head of Engineering (Supply Vertical)* **January 2025 to October 2025**
- Heading the engineering direction for the Supply vertical at Zenjob.
-Closely collaborating with the other 2 Heads of Engineering, reporting directly under the CTO to provide direction and support for Zenjob's long term goals.
- Lead the mobile infrastructure team and a company wide distribution efforts to migrate the mobile apps from native code (iOS & Android) to `ReactNative` using `Expo`.
+**Zenjob** -- *Engineering Manager (Platform & DevOps)* -- **May 2023 to January 2025**
+ Led a team of 6 engineers building Kubernetes infrastructure, CI/CD pipelines, AWS, and platform services.
+ Delivered an API Gateway and APM service. Improved CI/CD pipeline stability by over 50%. Introduced DORA-aligned metrics across the organization.
+ Coached engineers from mid-level to senior through structured career development.
 
-<h3></h3>
+**Spotify** -- *Engineering Manager (Remote)* -- **January 2022 to May 2023**
+ Led a distributed team of 8 engineers (grew to 12, split into 2 specialized squads) across Sweden, the UK, Germany, Colorado, and New York, building Backstage, Spotify's open-source developer platform.
+ Post-split, managed half the team directly and 1 Engineering Manager who owned the other squad.
+ Defined the plugin marketplace architecture and contribution model. Shipped 3 monetized plugins, establishing a new revenue stream for Spotify.
+ Balanced product velocity with platform health (extensibility, contribution model, documentation).
 
-**`Zenjob`** *Engineering Manager* **May 2023 to January 2025**
- Leading the Platform & Infrastructure team.
- Introduced KPIs for tracking performance of the team and align with objectives.
- Introduced services to unlock measuring lead time across the entire engineering organization.
- Lead the introduction of an API Gateway as well as an APM service.
- Improvement of CI/CD pipelines over 50% in duration and stability.
+**SoundCloud** -- *Engineering Manager, Back-End Engineering Productivity* -- **October 2019 to January 2022**
+ Led the BEEP and Core Clients teams (~8 ICs) owning JVMKit, a shared platform powering 200+ microservices serving 175M+ monthly users.
+ Drove reliability, performance, and extensibility for shared infrastructure used by every engineering team in the organization.
+ Coached engineers from mid-level to senior through structured feedback and career development.
 
-<h3></h3>
+**SoundCloud** -- *Core Clients Engineer* -- **July 2017 to February 2020**
+ Built developer tooling (Swift + Ruby) that reduced compile times by 7 minutes and integration time by 50%.
+ Improved playback performance by 15 seconds by extracting and refactoring Offline Sync into its own framework, increasing total listening time by 10%.
+ Built Prometheus-integrated observability tools for system monitoring at scale.
 
-**`Spotify`** *Engineering Manager* **January 2022 to May 2023**
- Lead a highly distributed team over Sweden, London, Berlin, Colorado and New York into releasing the first set of 3 `Backstage` plugins to be monetised by `Spotify`.
- Setup the foundational structures for the plugins marketplace on which `Spotify` later on would sell their plugins, generating a new income revenue for the company.
+**SoundCloud** -- *iOS Developer* -- **October 2016 to July 2017**
+ Architected module extraction into micro features with clear API boundaries adopted across the iOS organization.
 
-<h3></h3>
-
-**`SoundCloud`** *BEEP Engineering Manager* **October 2019 to January 2022**
- Lead the Back-End Engineering Productivity team alongside the Core Clients team supporting the maintenance of the JVMKit library that supports the entire set of microservices at SoundCloud.
- The library handles authentication, identity, audience distribution, etc allowing the feature engineers to focus on the features and letting the library handle the rest.
-
-<h3></h3>
-
-**`SoundCloud`** *Core Clients Engineer* **July 2017 to February 2020**
- Reduced compile times by 7 minutes by the creation of a service side `Swift` service with a companion `Ruby` service that tracked build times locally and on `CI`, which helped us track major bottlenecks that guided us towards improving our project organization; resulting in more developers embracing `TDD` due to lesser turnaround times which lead to an increase in the confidence of shipping new features.
- Reduced the number of flaky tests on the `iOS` code base by implementing a `Swift` server side service that scrapes and parses `CI` data from `Buddybuild`, to generate metrics and dashboards that helped us track and fix flaky tests and confirm improvements via metrics; which lead to minimizing friction when adding new features and reducing the integration time by 50% as a result of reducing the need to re-run the `CI` jobs to verify flakyness.
- Improved initial playback time and playqueue load times by 15 seconds by extracting and refactoring `Offline Sync` into it's own framework and removing unnecessary complexity; leading to an increase in total listening time of our users by 10%.
- Wrote multiple tools that hookup to `Prometheus` in order to properly analyze and maintain app health as well as to better understand how all the systems interact with each other.
-
-<h3></h3>
-
-**`SoundCloud`** *iOS Developer* **October 2016 to July 2017**
- Architected and defined the infrastructure for modules/framework extractions into micro features.
- Integrated the new in-house media player into the `iOS` application; leading to less crashes, faster remote media loading and caching as well less fragmentation of the code via guiding all the media playback through the same engine (audio & video).
-
-<h3></h3>
-
-**`Craft Kollective`** *Co Founder* **January 2015 to July 2021**
- Get the best seasonal picks in beer from local brewers delivered to your office each week.
-
-<h3></h3>
-
-**`Brewbot`** *iOS Developer* **September 2015 to August 2016**
- Improved app responsiveness and testability by 20% by introducing reactive programming and `ViewModel` + `DataControllers` resulting in faster iteration times and an increase in the amount of bugs and new features the team could tackle.
- Streamlined the `CI` and «delivery» processes by integrating `fastlane` into the workflow of the organization; guaranteeing increase in confidence with each change by running the tests before every integration and deploying `OTA` updates; resulting in a more stable application and facilitating the addition of changes.
-
-<h3></h3>
-
-**`Log(n)`** *Senior iOS Developer | Mobile Lead Engineer* **October 2012 to September 2015**
- Defined a structure for the `iOS` department by being the mobile lead engineer of a small team of 4 mobile engineers which lead to the company to be able to take more projects and reduce the turnaround time.
- Established a development process for `iOS` projects by documenting and defining a workflow that resulted in a considerable decrease in maintainability times and ability to iterate on new features on the projects.
- Established a CI system for development and delivery by setting up some Mac Minis and Buildasaur with Xcode Bots which resulted in an increment of 15% in test coverage and a reduction of 50% times when deliverying new `ipa`s.
-
-<h3></h3>
-
-**`Kidaptive, Inc.`** *iOS Developer* **January 2013 to December 2013**
- Develop some small LUA games and help with integration of IAP and DLC for the app.
-
-<h3></h3>
-
-**`Mobiquity`** *iOS Senior Developer (Tech Lead)* **August 2012 to January 2013**
- iOS lead developer in a project called 3RB. A distribution and editable document manager for Hollywood teams in charge of movies, tv series and music shows that need to have their documents and scripts up to date and synchronised across all the users.
-
-<h3></h3>
-
-**`Samtec`** *iOS Technical Lead* **January 2010 to August 2012**
- Increased iteration times on new features for the iOS apps 4 times by creating, training and directing the `iOS` department.
- Built an `iOS` team of 6 developers by creating a career path program that resulted in the creation of more simultaneous projects, leading to an increase in productivity for the company.
-
-<h3></h3>
-
-**`Little Maven Bird`** *iOS Analyst and Developer* **April 2011 to November 2011**
- A company I started with a friend from Austin, TX. Development of own projects (not Outsourcing) iOS specific.
-
-<h3></h3>
-
-**`SlimSoft Solutions Inc.`** *Software Analyst and Developer* **May 2008 to December 2009**
- Backend developer of a Shop Floor software that worked on FLASH and synchronizes with GEFanuc software via webservices and some COM technology.
-
-<h3></h3>
-
-**`Global Processing Services`** *Software Analyst and Developer* **September 2006 to May 2008**
- Developed a code generator software as well as working with Reflection technologies in order to build flexible "plug-in" like infrastructure.
-
-<h3></h3>
-
-**`EtereaSoft S.A.`** *Software Analyst and Developer* **January 2005 to June 2005**
- Small software development company, created to provided exact solutions for small, medium and big companies. Offers solutions in Java and .Net.
+**Earlier Career** -- **2005 to 2016**
+ Progressive engineering and leadership roles including Co-Founder at Craft Kollective, Mobile Lead Engineer at Log(n) (built team of 4), iOS Developer at Brewbot (connected-hardware startup), and iOS Technical Lead at Samtec (built department of 6). Over a decade of hands-on engineering across mobile, backend, and tooling.
 
 ------
 
-### Projects
+### Production Side Projects
 
-* **`RxViewModel`**
-  [`ReactiveViewModel`][reactiveviewmodel] `Swift` implementation for [`RxSwift`][rxswift]. Created to satisfy a lack of a reactive implementation of `ViewModel` for [`RxSwift`][rxswift], to better understand the innards of `RxSwift` and help ease the usage of `MVVM` with an  [`RxSwift`][rxswift] integration.
-  It was later transfered to [RxSwiftCommunity][rxswiftcommunity] to live under the umbrella of the `RxSwiftCommunity`..
+* **[Quik](https://quik.so)**
+  Production AI agent platform built in Go with gRPC services (Protobuf, Buf), NATS JetStream for Pub/Sub messaging, multi-tier LLM inference, embeddings pipeline with semantic search, and agent loops with schema-validated tool calling. Self-hosted SaaS architecture with full audit trails.
 
-* **`SoundCloud` offline sync**
-  One of the biggest features of `SoundCloud`'s mobile application  is the ability to offline sync tracks.
-  Due to bad performance of the feature in the `iOS` application, I was part of a team in charge of rewriting this implementation in its own abstracted dynamic framework. With the usage of shared repositories and proper mechanisms the offline functionality was abstracted in a way that other `SoundCloud` apps can easily and quickly implement their own offline sync feature.
+* **[BlueTip](https://bluetip.ai)**
+  Production AI writing platform built with Node.js, Next.js, React, TypeScript, Tailwind CSS, shadcn/ui, and Stripe. Multi-provider LLM integration (Anthropic, OpenAI, Google Vertex AI) with streaming, guardrails, and tool-use.
 
-* **`Multiple OSS Projects`**
-  Some of the `OSS` contributions I've worked on are:
-  [Added team support to `sigh` (`fastlane`'s tool)][fastlane]</br>
-  [Added quality index view for a pods in `CocoaPods`' website][cocoapods]</br>
-  [Migrated `Moya` to support `Swift` 2.0][moya]</br>
-  [Device agnostic support on `FBSnapshotTestCase` & `Nimble-Snapshot`][fbsnapshot]
+------
+
+### Open Source
+
+* **Backstage (Spotify)** -- Contributor to [Backstage](https://github.com/backstage/backstage), open-source developer platform.
+* **OSS Community** -- Active across [CocoaPods](https://cocoapods.org), [Moya](https://github.com/Moya) (Swift 2.0 migration), [ReSwift](https://github.com/ReSwift), [RxSwiftCommunity](http://community.rxswift.org/); contributions to Fastlane (`sigh` team support), FBSnapshotTestCase (device-agnostic support).
 
 ------
 
@@ -151,11 +96,3 @@ Closely collaborating with the other 2 Heads of Engineering, reporting directly 
 
 **iOS Development Bootcamp** **2012**
  Big Nerd Ranch, Atlanta
-
-[reactiveviewmodel]:https://github.com/reactivecocoa/reactiveviewmodel
-[rxswift]:https://github.com/ReactiveX/RxSwift
-[rxswiftcommunity]:http://community.rxswift.org/
-[fastlane]:https://github.com/fastlane-old/sigh/pull/7
-[cocoapods]:http://blog.cocoapods.org/CocoaPods.org-Two-point-Five/
-[moya]:https://github.com/Moya/Moya/pull/194
-[fbsnapshot]:https://github.com/facebookarchive/ios-snapshot-test-case/pull/121
