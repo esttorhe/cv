@@ -1,0 +1,118 @@
+/* ABOUTME: Elegant cover letter stylesheet with clean typography. */
+/* ABOUTME: Matches the modern CV stylesheet palette (teal accent, Montserrat/Lato). */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Lato:wght@300;400;700&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+
+.letter {
+    max-width: 700px;
+    margin: 48px auto;
+    padding: 48px 56px;
+}
+
+.header {
+    margin-bottom: 36px;
+    padding-bottom: 24px;
+    border-bottom: 2px solid #1a5276;
+}
+
+.header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #1a5276;
+    margin: 0 0 4px;
+}
+
+.header .contact {
+    font-size: 13px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.header .contact a {
+    color: #555;
+    text-decoration: none;
+    border-bottom: 1px dotted #aaa;
+}
+
+.header .contact a:hover {
+    color: #1a5276;
+}
+
+.date {
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 24px;
+}
+
+.greeting {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #222;
+    margin-bottom: 16px;
+}
+
+.body p {
+    margin: 0 0 16px;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #333;
+}
+
+.body a {
+    color: #1a5276;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+
+.body a:hover {
+    border-bottom-color: #1a5276;
+}
+
+.closing {
+    margin-top: 32px;
+}
+
+.closing .sign-off {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+.closing .name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #1a5276;
+}
+
+@media print {
+    body { background: #fff; }
+    .letter {
+        max-width: 100%;
+        margin: 0;
+        padding: 24px 36px;
+    }
+}
+
+@page {
+    size: A4;
+    margin: 20mm 16mm;
+}

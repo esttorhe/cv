@@ -303,6 +303,6 @@ dl dd {
 }
 
 @page {
-    size: A4;
+    size: A4 portrait;
     margin: 16mm 12mm;
 }
