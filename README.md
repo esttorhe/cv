@@ -21,27 +21,24 @@ mise install
 If you can't be bothered much with this and just want to see the output; run:
 
 ```console
-make
+mise run
 ```
 
 And that will generate a `cv.pdf` file which is the `PDF` transformation of [cv.md][cv].
 
 ## Options?
 
-The `Makefile` in the repo includes a few targets to help update and check the `CV`.
-
-It also contains it's own `help` target which outputs the following:
+All tasks are defined in `.mise.toml`. Run `mise tasks` for the full list. The current set:
 
 |  Command | Description |
 | :-----------: | :------------ |
-| all             |               Removes generated files, installs dependencies, and generates HTML + PDF versions of the CV. |
-| clean            |              Removes generated files (`cv.html`, `cv.pdf`, `docs`) |
-| dependencies             |      Installs npm packages. |
-| deploy              |           Generates HTML + PDF then creates the docs folder. |
-| help             |              Displays this help menu |
-| html          |                 Removes generated files, installs dependencies, and generates an HTML version of the CV. |
-| pdf          |                  Generates the HTML then converts it to PDF using weasyprint. |
-| watch                |          Same as the «`html`» target but listens to changes on «`cv.md`» and hot reloads the changes to http://localhost:4000/cv.html. |
+| `mise run`         | (default) Cleans generated files, installs deps, and builds `cv.pdf`. |
+| `mise run clean`   | Removes generated files (`cv.html`, `cv.pdf`, `docs`). |
+| `mise run install` | Installs npm packages. |
+| `mise run html`    | Builds `cv.html` from `cv.md`. |
+| `mise run pdf`     | Builds `cv.pdf` from `cv.html` via `weasyprint`. |
+| `mise run watch`   | Builds HTML then hot-reloads on `cv.md` changes at http://localhost:4000/cv.html. |
+| `mise run deploy`  | Builds HTML + PDF then copies them into `docs/`. |
 
 [neonacho]:https://twitter.com/neonacho
 [boriscv]:https://github.com/neonichu/cv

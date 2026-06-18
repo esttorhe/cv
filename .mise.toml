@@ -1,6 +1,48 @@
 [tools]
-node = "latest"
-"pipx:weasyprint" = "latest"
+node = "26.3.0"
+"pipx:weasyprint" = "68.1"
 
-[env]
-DYLD_FALLBACK_LIBRARY_PATH = "/opt/homebrew/lib"
+[tasks.install]
+description = "Install npm packages"
+run = "npm install"
+sources = ["package.json", "package-lock.json"]
+outputs = ["node_modules/.package-lock.json"]
+
+[tasks.clean]
+description = "Remove generated files (cv.html, cv.pdf, docs)"
+run = "rm -rf cv.html cv.pdf docs"
+
+[tasks.html]
+description = "Build cv.html from cv.md"
+depends = ["install"]
+run = "node node_modules/.bin/md2resume cv.md"
+sources = ["cv.md"]
+outputs = ["cv.html"]
+
+[tasks.pdf]
+description = "Build cv.pdf from cv.html via weasyprint"
+depends = ["html"]
+run = "DYLD_FALLBACK_LIBRARY_PATH=/opt/homebrew/lib weasyprint cv.html cv.pdf"
+sources = ["cv.html"]
+outputs = ["cv.pdf"]
+
+[tasks.watch]
+description = "Hot reload cv.html at http://localhost:4000/cv.html on cv.md change"
+depends = ["html"]
+run = 'node node_modules/.bin/light-server -s . -w "cv.md # node_modules/.bin/md2resume cv.md"'
+
+[tasks.deploy]
+description = "Build HTML + PDF and copy into docs/"
+depends = ["pdf"]
+run = [
+  "mkdir -p docs",
+  "cp cv.html docs/index.html",
+  "cp cv.pdf docs/cv-esteban.pdf",
+]
+
+[tasks.default]
+description = "Clean, install deps, and build the PDF"
+run = [
+  "mise run clean",
+  "mise run pdf",
+]
